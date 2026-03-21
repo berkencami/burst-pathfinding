@@ -44,7 +44,6 @@ A high-performance, Job System–based A\* pathfinding framework for **Unity 6**
 2. Configure grid size, node size, and grid type in the Inspector
 3. Add `PathfindingAgent` and `AgentMovementController` to each agent GameObject
 4. (Optional) Add `DynamicObstacleScanner` for real-time obstacle updates
-5. Call `agent.SetDestination(worldPosition)` from any script
 
 ```csharp
 // Request a path manually
